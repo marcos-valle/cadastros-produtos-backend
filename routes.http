@@ -1,0 +1,29 @@
+POST http://localhost:3000/cadastro
+Content-Type: application/json
+
+{
+    "nome": "produto 1",
+    "descricao": "descricao do produto 1",
+    "valor": 10.5,
+    "disponivel": true
+}
+
+###
+
+GET http://localhost:3000/produtos
+
+###
+
+PUT http://localhost:3000/produtos/
+Content-Type: application/json
+
+{
+    "nome": "produto 2",
+    "descricao": "descricao do produto 1",
+    "valor": 10.5,
+    "disponivel": true
+}
+
+###
+
+DELETE http://localhost:3000/produtos/
