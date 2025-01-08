@@ -45,5 +45,5 @@ server.delete('/produtos/:produto_id', async (request) => {
 })
 
 server.listen({
-    port: 3000,
+    port: process.env.PORT ?? 3000,
 })
